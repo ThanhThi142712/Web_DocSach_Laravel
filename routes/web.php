@@ -13,4 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('','Frontend\Page@home__Page')->name('home__Page');
+Route::get('/', function () {
+    return view('layout');
+});
+Route::get('sach','Controler_sach@Danhsachsach')->name('Danhsachsach');

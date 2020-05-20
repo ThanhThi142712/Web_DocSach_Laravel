@@ -1,0 +1,241 @@
+body {
+    font-size: 18px;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-topbar {
+    background: #007772;
+    line-height: 36px;
+    color: #f1f1f1;
+    font-size: 12px;
+}
+
+.bg-topcoppyright {
+    background: black;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .logo {
+    width: 80%;
+}
+
+.img-logo {
+    width: 80%;
+}
+
+.account-cart {
+    text-align: right;
+    font-size: 20px;
+}
+
+.img-account {
+    width: 35px;
+}
+
+
+/* main menu */
+
+.mainmenu {
+    background: #007772;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 3px;
+}
+
+.nav-item:hover {
+    background: #f2f2f2;
+}
+
+.nav-item:hover a {
+    color: #007772 !important;
+}
+
+.nav-item a {
+    color: #f1f1f1 !important;
+}
+
+
+/* content */
+
+.fas {
+    color: #007772;
+}
+
+
+/* Category menu*/
+
+.list-group-item.active {
+    background-color: #007772;
+}
+
+.account-cart a {
+    color: #007772;
+    transition: 0.8s;
+}
+
+.account-cart a:hover {
+    color: red;
+}
+
+.introduce {
+    padding: 20px 0;
+}
+
+.col-1 {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.row {
+    line-height: 20px;
+}
+
+.row-1 {
+    text-align: center;
+    line-height: 20px;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    min-width: 380px;
+}
+
+.fa-facebook-square,
+.fa-youtube {
+    font-size: large;
+    padding: 10px;
+    color: white;
+}
+
+.title-copyright {
+    font-size: 20px;
+    color: #f1f1f1;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.sub-title {
+    display: block;
+}
+
+.coppy-right {
+    background-color: darkgreen;
+    min-height: 30px;
+}
+
+
+/* .form-control {
+    max-width: 250px;
+    text-align: center;
+} */
+
+
+/*header*/
+
+.input-seach {
+    min-width: 80% !important;
+}
+
+
+/*productss*/
+
+.products {
+    margin: 5px 5px;
+}
+
+.products-category {
+    transition: box-shadow .3s;
+    background: #fff;
+    transition: box-shadow .3s;
+    background: #fff;
+    float: left;
+}
+
+.products-category:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    border: 2px solid #007772;
+}
+
+.title-category {
+    color: #007772;
+}
+
+.title-category:hover {
+    color: red;
+}
+
+a {
+    color: #007772;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.products-name {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-inner {
+    text-align: center;
+}
+
+
+/* Vùng Đồng Hồ Chính Hãng Home Page  */
+
+
+/*Icon*/
+
+.fa-500px,
+.fa-ticket-alt,
+.fa-hand-holding-usd,
+.fa-backward,
+.fa-gifts,
+.fa-bookmark {
+    color: #e6ecec;
+    font-size: 30px;
+    margin: auto;
+    display: inline-block;
+}
+
+span {
+    display: block;
+    border-radius: 50%;
+}
+
+.watch-des i {
+    background-color: #007772;
+    /* text-align: center; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_watchdes {
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+

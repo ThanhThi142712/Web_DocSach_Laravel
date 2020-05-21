@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layout');
-});
-Route::get('sach','Controler_sach@Danhsachsach')->name('Danhsachsach');
+Route::get('/','Controller_sach@trangchu' )->name('trangchu');
+
+Route::get('chi_tiet/{id_sach}','Controller_sach@chitiet')->name('chitiet');
+Route::get('noi_dung','Controller_sach@noi_dung')->name('noi_dung');
+Route::get('danh_sach/{id_theloai}','Controller_sach@ds_theoloai')->name('ds_theoloai');

@@ -1,0 +1,80 @@
+.text-justify {
+    text-align: justify;
+    text-indent: 30px;
+}
+.gioi_thieu_sach {
+    margin-bottom: 40px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.tomtac{
+	font-size: 15px;
+	 text-align: left;
+	 font:caption;
+	 vertical-align: middle;
+	 
+	
+}
+}
+h1.ebook_title {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+.text-primary {
+    color: #337ab7;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.glyphicon-download-alt:before {
+    content: "\e025";
+}
+.input_search{
+
+      width: 130px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 4px;
+      outline:none;
+      padding: 12px 14px;
+
+      transition:0.6s ease-in-out;
+   
+}
+

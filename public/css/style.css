@@ -66,9 +66,15 @@ ul.support li a {
 	width: 55%;
 }
 .logo{
-	float:left;
+	
 	width: 27%;
     margin-top:9px;
+}
+.bg-dark1{
+	background-color: #778899;
+}
+.header{
+	background-color: #778899;
 }
 .header-bottom-right{
 	float: right;
@@ -123,7 +129,7 @@ ul.login li a span{
 /*----*/
 .search {
 	background:#fff;
-	border: 1px solid #ddd;
+	
 	position: relative;
 	width: 47%;
 	float: right;
@@ -155,6 +161,7 @@ ul.login li a span{
 	border-bottom: none;
 	border-top: none;
 	border-right: none;
+
 }	
 .search input[type="submit"]:active {
 	position:relative;
@@ -426,6 +433,7 @@ a.all-product{
 	float:left;
 }
 h5.latest-product{
+	text-indent:40px;
 	margin: 6px 0 0;
 	font-size: 1.3em;
 	color: #000;
@@ -1005,7 +1013,7 @@ a.forgot {
 }
 /*--footer--*/
 .footer-top{
-	background: #F5F5F5;
+	background-color:  #778899;
 	margin: 3em 0 0;
 }
 .latter{
@@ -1721,4 +1729,11 @@ img.banner-bag {
 .img-left-arrow {
 	padding: 0 0 0 6.2em;
 }
+}
+
+ 
+.center {
+    width: 50%;
+    height: 50%;
+    
 }
